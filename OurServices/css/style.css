@@ -1,0 +1,102 @@
+                * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                
+                .container {
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+                .col-12 h1 {
+                    text-align: center;
+                    font-size: 28px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                }
+                
+                .col-12 p {
+                    color: #8888;
+                    text-align: center;
+                    line-height: 25px;
+                    margin-bottom: 33px;
+                }
+                
+                .bir {
+                    animation-delay: 0.3s;
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+                
+                .icon {
+                    z-index: 3;
+                    text-align: center;
+                    transition: 0.3s linear;
+                }
+                
+                .icon i:hover {
+                    background-color: rgb(202, 174, 154);
+                }
+                
+                .icon i {
+                    border: 2px solid white;
+                    background-color: white;
+                    border-radius: 100%;
+                    color: #FD5A38;
+                    display: inline-block;
+                    font-size: 32px;
+                    height: 70px;
+                    line-height: 70px;
+                    width: 70px;
+                    text-align: center;
+                    transition: 0.4s linear;
+                }
+                
+                .icon i:hover {
+                    background: #FD5A38;
+                    color: #fff;
+                }
+                
+                .paragraf {
+                    margin-top: 15px;
+                }
+                
+                .paragraf h2 {
+                    text-align: center;
+                    font-weight: 300;
+                }
+                
+                .paragraf p {
+                    color: #8888;
+                    /* padding: 5px 33px; */
+                    font-size: 15px;
+                    text-align: center;
+                    line-height: 22px;
+                    font-weight: 400;
+                }
+                
+                .paragraf h2 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
+                    margin-top: 15px;
+                }
+                
+                .bir {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: stretch;
+                    justify-content: space-around;
+                }
+                
+                .blu {
+                    border: 2px solid #FD5A38;
+                    width: 79px;
+                    height: 80px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: flex-end;
+                    align-items: center;
+                    transition: 0.3s;
+                }
